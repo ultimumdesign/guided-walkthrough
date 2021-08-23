@@ -1,0 +1,38 @@
+{
+	"components": {
+		"recro-guided-walkthrough": {
+			"innerComponents": [
+				"now-card"
+			],
+			"uiBuilder": {
+				"associatedTypes": [
+					"global.core",
+					"global.landing-page"
+				],
+				"label": "Recro guided walkthrough",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			},
+			"properties": [
+				{
+					"name": "size",
+					"label": "Size",
+					"description": "Size option for the component.",
+					"readOnly": false,
+					"required": false,
+					"defaultValue": "md"
+				},
+				{
+					"name": "data",
+					"label": "Data",
+					"description": "Data to inject into component",
+					"readOnly": false,
+					"required": false,
+					"defaultValue": ""
+				}
+			]
+		}
+	},
+	"scopeName": "x_recro_recro_gu_0"
+}
