@@ -2,7 +2,9 @@
 	"components": {
 		"recro-guided-walkthrough": {
 			"innerComponents": [
-				"now-card"
+				"now-button",
+				"now-card",
+				"now-rich-text"
 			],
 			"uiBuilder": {
 				"associatedTypes": [

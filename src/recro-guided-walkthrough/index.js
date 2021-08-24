@@ -25,7 +25,7 @@ const view = (state, { updateState }) => {
             ]}
           />
           <now-card-divider />
-          <now-card-footer label={{ start: '', end: (state.selectedStep + 1) + 'of ' + data.length }} split='equal' />
+          <now-card-footer label={{ start: '', end: (state.selectedStep + 1) + ' of ' + data.length }} split='equal' />
         </now-card>
       </div>
     )
